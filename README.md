@@ -67,3 +67,18 @@ We developed **4 machine learning models**, one for each mission:
 ---
 
 ## 📂 Repository Structure
+faculty-of-exoplanets:
+  models: "AI models (Kepler, K2, TESS, Habitability)"
+  backend: "FastAPI backend"
+  frontend: "React frontend"
+  streamlit_app: "Habitability model (Streamlit app)"
+  data: "Sample datasets"
+  README.md: "Documentation"
+
+---
+
+## 👩‍🚀 Team
+
+Faculty of Exoplanets was developed by a passionate team of **6 innovators** for the NASA Space Apps Challenge.  
+We believe AI can help humanity take its next giant leap into the stars. 🌌✨
+
