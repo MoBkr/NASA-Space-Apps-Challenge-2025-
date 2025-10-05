@@ -1,16 +1,69 @@
-# React + Vite
+# 🌌 Faculty of Exoplanets
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Faculty of Exoplanets** is an AI-powered platform designed to transform the way researchers, students, and enthusiasts explore exoplanets.  
+By combining multiple machine learning models with interactive dashboards and educational tools, our project automates exoplanet detection, predicts habitability, and makes space science accessible for everyone.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Project Overview
 
-## React Compiler
+- **Mission-specific AI Models** for NASA datasets (TESS, Kepler, K2).  
+- **Habitability Model** that predicts if a planet could potentially support life.  
+- **Dual Modes**:  
+  - *Researcher Mode* → advanced analytics, model retraining, probability-based predictions.  
+  - *Student Mode* → simplified explanations of features and data columns.  
+- **Habitable Exoplanets Catalog** → a continuously updated catalog of potentially habitable planets.  
+- **Interactive Dashboards** for classification, visualization, and exploration.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛰️ Live Project Links
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🌐 **Main Website (Frontend – React.js):** [Insert Link Here]  
+- ⚙️ **Backend API (FastAPI):** [Insert Link Here]  
+- 🔬 **Habitability Model (Streamlit App):** [Insert Link Here]  
+- 📂 **GitHub Repository:** This repo
+
+---
+
+## 🧠 AI Models
+
+We developed **4 machine learning models**, one for each mission:  
+- **Kepler** → XGBoost  
+- **K2** → LightGBM  
+- **TESS** → Voting Classifier (XGBoost + Random Forest)  
+- **Habitability Model** → K-Nearest Neighbors (KNN)  
+
+---
+
+## 🛠️ Tech Stack
+
+### AI & Data Analysis
+- Python: `pandas`, `numpy`, `seaborn`, `matplotlib`, `scikit-learn`, `xgboost`, `lightgbm`
+
+### Backend
+- FastAPI
+
+### Frontend
+- React.js
+
+### Habitability Model App
+- Streamlit
+
+### Deployment
+- Streamlit Cloud (for Habitability Model)  
+- Vercel/Netlify (for React frontend)  
+- Render/Railway/Heroku (for FastAPI backend)
+
+---
+
+## 🌍 Impact
+
+- Automates exoplanet discovery → saves researchers time.  
+- Provides educational access → inspires students and future scientists.  
+- Creates a bridge between AI and astronomy.  
+- Offers a catalog of habitable exoplanets to guide future research.
+
+---
+
+## 📂 Repository Structure
