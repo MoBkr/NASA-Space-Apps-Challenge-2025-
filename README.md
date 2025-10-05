@@ -68,12 +68,19 @@ We developed **4 machine learning models**, one for each mission:
 
 ## 📂 Repository Structure
 faculty-of-exoplanets:
-  models: "AI models (Kepler, K2, TESS, Habitability)"
-  backend: "FastAPI backend"
-  frontend: "React frontend"
-  streamlit_app: "Habitability model (Streamlit app)"
-  data: "Sample datasets"
-  README.md: "Documentation"
+  - models: 
+      description: "AI models (Kepler, K2, TESS, Habitability)"
+  - backend: 
+      description: "FastAPI backend"
+  - frontend: 
+      description: "React frontend"
+  - streamlit_app: 
+      description: "Habitability model (Streamlit app)"
+  - data: 
+      description: "Sample datasets"
+  - README.md: 
+      description: "Documentation"
+
 
 ---
 
