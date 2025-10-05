@@ -74,7 +74,7 @@ faculty-of-exoplanets:
       description: "FastAPI backend"
   - frontend: 
       description: "React frontend"
-  - streamlit_app: 
+  - Earth: 
       description: "Habitability model (Streamlit app)"
   - data: 
       description: "Sample datasets"
