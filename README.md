@@ -1,82 +1,73 @@
-🌌 Faculty of Exoplanets
+# 🌌 Faculty of Exoplanets
 
-Faculty of Exoplanets is an AI-powered platform designed to transform the way researchers, students, and enthusiasts explore exoplanets.
+**Faculty of Exoplanets** is an AI-powered platform designed to transform the way researchers, students, and enthusiasts explore exoplanets.  
 By combining multiple machine learning models with interactive dashboards and educational tools, our project automates exoplanet detection, predicts habitability, and makes space science accessible for everyone.
 
-🚀 Project Overview
+---
 
-Mission-specific AI Models for NASA datasets (TESS, Kepler, K2).
+## 🚀 Project Overview
 
-Habitability Model that predicts if a planet could potentially support life.
+- **Mission-specific AI Models** for NASA datasets (TESS, Kepler, K2).  
+- **Habitability Model** that predicts if a planet could potentially support life.  
+- **Dual Modes**:  
+  - *Researcher Mode* → advanced analytics, model retraining, probability-based predictions.  
+  - *Student Mode* → simplified explanations of features and data columns.  
+- **Habitable Exoplanets Catalog** → a continuously updated catalog of potentially habitable planets.  
+- **Interactive Dashboards** for classification, visualization, and exploration.
 
-Dual Modes:
+---
 
-Researcher Mode → advanced analytics, model retraining, probability-based predictions.
+## 🛰️ Live Project Links
 
-Student Mode → simplified explanations of features and data columns.
+- 🌐 **Main Website (Frontend – React.js):** [Insert Link Here]  
+- ⚙️ **Backend API (FastAPI):** [Insert Link Here]  
+- 🔬 **Habitability Model (Streamlit App):** [Insert Link Here]  
+- 📂 **GitHub Repository:** This repo
 
-Habitable Exoplanets Catalog → a continuously updated catalog of potentially habitable planets.
+---
 
-Interactive Dashboards for classification, visualization, and exploration.
+## 🧠 AI Models
 
-🛰️ Live Project Links
+We developed **4 machine learning models**, one for each mission:  
+- **Kepler** → XGBoost  
+- **K2** → LightGBM  
+- **TESS** → Voting Classifier (XGBoost + Random Forest)  
+- **Habitability Model** → K-Nearest Neighbors (KNN)  
 
-🌐 Main Website (Frontend – React.js): [Insert Link Here]
+---
 
-⚙️ Backend API (FastAPI): [Insert Link Here]
+## 🛠️ Tech Stack
 
-🔬 Habitability Model (Streamlit App): [Insert Link Here]
+### AI & Data Analysis
+- Python: `pandas`, `numpy`, `seaborn`, `matplotlib`, `scikit-learn`, `xgboost`, `lightgbm`
 
-📂 GitHub Repository: This repo
+### Backend
+- FastAPI
 
-🧠 AI Models
+### Frontend
+- React.js
 
-We developed 4 machine learning models, one for each mission:
+### Habitability Model App
+- Streamlit
 
-Kepler → XGBoost
+### Deployment
+- Streamlit Cloud (for Habitability Model)  
+- Vercel/Netlify (for React frontend)  
+- Render/Railway/Heroku (for FastAPI backend)
 
-K2 → LightGBM
+---
 
-TESS → Voting Classifier (XGBoost + Random Forest)
+## 🌍 Impact
 
-Habitability Model → K-Nearest Neighbors (KNN)
+- Automates exoplanet discovery → saves researchers time.  
+- Provides educational access → inspires students and future scientists.  
+- Creates a bridge between AI and astronomy.  
+- Offers a catalog of habitable exoplanets to guide future research.
 
-🛠️ Tech Stack
-AI & Data Analysis
+---
+## 📂 Repository Structure  
 
-Python (pandas, numpy, seaborn, matplotlib, scikit-learn, xgboost, lightgbm)
 
-Backend
-
-FastAPI
-
-Frontend
-
-React.js
-
-Habitability Model App
-
-Streamlit
-
-Deployment
-
-Streamlit Cloud (for Habitability Model)
-
-Vercel/Netlify (for React frontend)
-
-Render/Railway/Heroku (for FastAPI backend)
-
-🌍 Impact
-
-Automates exoplanet discovery → saves researchers time.
-
-Provides educational access → inspires students and future scientists.
-
-Creates a bridge between AI and astronomy.
-
-Offers a catalog of habitable exoplanets to guide future research.
-
-📂 Repository Structure
 faculty-of-exoplanets/
 │
 ├── models/              # AI models (Kepler, K2, TESS, Habitability)
@@ -86,7 +77,10 @@ faculty-of-exoplanets/
 ├── data/                # Sample datasets
 └── README.md            # Documentation
 
-👩‍🚀 Team
+---
 
-Faculty of Exoplanets was developed by a passionate team of 6 innovators for the NASA Space Apps Challenge.
+## 👩‍🚀 Team
+
+Faculty of Exoplanets was developed by a passionate team of **6 innovators** for the NASA Space Apps Challenge.  
 We believe AI can help humanity take its next giant leap into the stars. 🌌✨
+
